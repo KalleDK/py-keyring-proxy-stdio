@@ -9,10 +9,10 @@ readme = "README.md"
 license = { text = "MIT" }
 
 [project.urls]
-Repository = "https://github.com/KalleDK/py-keyring-proxy-socket"
+Repository = "https://github.com/KalleDK/py-keyring-proxy-stdio"
 
 [project.entry-points."keyring.backends"]
-SocketProxyBackend = "keyring_proxy.socketproxy:SocketProxyBackend"
+StdioProxyBackend = "keyring_proxy.stdioproxy:StdioProxyBackend"
 
 [tool.pdm]
 distribution = true
