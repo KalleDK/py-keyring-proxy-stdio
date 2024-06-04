@@ -1,11 +1,9 @@
 [project]
 name = "keyring-proxy-stdio"
-version = "0.1.2"
+version = "0.1.5"
 description = "Default template for PDM package"
 authors = [{ name = "Kalle M. Aagaard", email = "git@k-moeller.dk" }]
-dependencies = [
-    "keyring-proxy>=0.1.8",
-]
+dependencies = ["keyring-proxy>=0.1.12"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = { text = "MIT" }
@@ -14,7 +12,7 @@ license = { text = "MIT" }
 Repository = "https://github.com/KalleDK/py-keyring-proxy-stdio"
 
 [project.entry-points."keyring.backends"]
-StdioProxyBackend = "keyring_proxy_stdioproxy:StdioProxyBackend"
+StdioProxyBackend = "keyring_proxy_stdio:StdioProxyBackend"
 
 [tool.pdm]
 distribution = true
