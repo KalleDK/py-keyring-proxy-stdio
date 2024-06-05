@@ -12,7 +12,7 @@ tasks:
   devrel:
     cmds:
       - git add .
-      - if git commit --dry-run --short; then git commit -m "devrel"; else echo nothing updated; fi
+      - if git commit --dry-run --short; then git commit -m "devrel"; else echo nothing changed; fi
       - bumpversion build
       - pdm publish
       - git push
