@@ -1,6 +1,6 @@
 [project]
 name = "keyring-proxy-stdio"
-version = "0.1.10.4"
+version = "0.1.10.5"
 description = "Default template for PDM package"
 authors = [{ name = "Kalle M. Aagaard", email = "git@k-moeller.dk" }]
 dependencies = [
