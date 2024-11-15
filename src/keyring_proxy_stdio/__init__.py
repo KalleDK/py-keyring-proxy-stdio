@@ -9,7 +9,7 @@ PRIORITY = 9.9
 
 
 class StdioProxyBackend(ProxyBackend):
-    exe = "C:\\Users\\km\\Projects\\github\\py-keyring-proxy-cli\\.venv\\Scripts\\keyring-proxy.exe"
+    exe = DEFAULT_EXE_PATH
 
     @override
     def _get_transport(self) -> TransportClient:
